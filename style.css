@@ -1,73 +1,93 @@
-#container {
-	position:fixed;
-	width:500px;
-	top: 50px;
-	left: 30%;
+html {
+    background-color: white;
 }
-#logo {
-	height: 250px;
-	width: 250px;
- }
-#search_text {
-	width:500px;
-	height: 30px;
+
+body {
+    width: 100%;
+    margin: 0 auto;
 }
-#search {
-	margin-top:20px;
-	width:125px;
-	height:30px;
-	background-color: #f2f2f2;
-	border: none;
-	color: #796b88;
-	font-weight: bold;
+
+img {
+    display: block;
+    margin: 100px auto 0;
+    width: 375px;
+    height: 135px;
 }
-#feeling_lucky {
-	margin-top:20px;
-	margin-left:10px;
-	width:125px;
-	height:30px;
-	background-color: #f2f2f2;
-	border: none;
-	color: #796b88;
-	font-weight: bold;
-}
-#image_div {
-	position:relative;
-	left:125px;
-}
+
 #textbox_div {
-	position:relative;
+    display: block;
+    margin: 10px auto 10px;
+    width: 600px;
 }
+
+input {
+    width: 575px;
+    height: 27px;
+}
+
 #buttons_div {
-	position:relative;
-	left:120px;
+    display: block;
+    margin: 0 auto;
+    width: 300px;
 }
-#footer {
-	width: 99%;
-	position:absolute;
-	bottom:0;
-	height: 50px;
-	background-color: #f2f2f2;
+
+button {
+    color: #909090;
+    font-weight: bold;
 }
-#footer ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
 }
-#footer ul li {
-	display:inline;
-	margin: 10px;
-	font-size: 12px;
+
+.header_div {
+    float: right;
 }
-a {
-	text-decoration: none;
-	color: #796b88;
+
+.header_div li {
+    display: inline;
+    padding: 0 10px;
+    font-size: 12px;
 }
+
+footer {
+    background-color: #eeeeee;
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
 .left_foot {
-	float:left;
-	margin: 20 20;
+    width: auto;
+    display: inline-block;
+    float: left;
 }
+
 .right_foot {
-	float: right;
-	margin: 20 20;
+    width: auto;
+    display: inline-block;
+    float: right;
+}
+
+.left_foot li,
+.right_foot li {
+    display: inline;
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #909090;
 }
